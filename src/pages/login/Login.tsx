@@ -39,15 +39,7 @@ const Login = () => {
       });
     } catch (err: any) {
       console.log(err.toString());
-      toast.error('로그인에 실패하였습니다. 다시 시도하세요', {
-        position: "top-center",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
+
     }
   }
 
