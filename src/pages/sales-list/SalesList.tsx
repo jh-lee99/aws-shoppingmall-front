@@ -27,15 +27,15 @@ const SalesList: React.FC = () => {
   const getLocalSalesList = () => {
     // 로컬 상품 목록을 배열에 직접 작성
     const salesData: Sales[] = [
-      { production: '셔츠', image: 'images/webp/image11.jpg', price: 10000 },
-      { production: '바지', image: 'images/webp/image12.jpg', price: 50000 },
-      { production: '회색 티셔츠', image: 'images/webp/image13.jpg', price: 30000 },
-      { production: '카키 바지', image: 'images/webp/image14.jpg', price: 40000 },
-      { production: '검정 치마', image: 'images/webp/image15.jpg', price: 35000 },
-      { production: '연청 니트', image: 'images/webp/image16.jpg', price: 53000 },
-      { production: '검정 티셔츠', image: 'images/webp/image17.jpg', price: 21000 },
-      { production: '진청 니트', image: 'images/webp/image18.jpg', price: 65000 },
-      { production: '민소매', image: 'images/webp/image19.jpg', price: 33000 },
+      { production: '탑피스', image: 'images/webp/image1.webp', price: 10000 },
+      { production: '프랑키 로브', image: 'images/webp/image2.webp', price: 50000 },
+      { production: '배색셔츠 티셔츠', image: 'images/webp/image3.webp', price: 30000 },
+      { production: '러블아일렛 블라우스', image: 'images/webp/image4.webp', price: 40000 },
+      { production: '글램피스 원피스', image: 'images/webp/image5.webp', price: 35000 },
+      { production: '데이즈셔링 블라우스', image: 'images/webp/image6.webp', price: 53000 },
+      { production: '쿨한스트링 원피스', image: 'images/webp/image7.webp', price: 21000 },
+      { production: '오펜셔링 원피스 세트', image: 'images/webp/image8.webp', price: 65000 },
+      { production: '쿨플레어 스커트', image: 'images/webp/image9.webp', price: 33000 },
       // 백앤드 서비스 추가하여 동적으로 해당 리스트 받아올 수 있음
     ];
     // 상품 목록을 상태에 저장
