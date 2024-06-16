@@ -51,7 +51,7 @@ jobs:
         cd ljh-front-shop-main/base
         sed -i "s|654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-front-shop-main:[^ ]*|${{ steps.login-ecr.outputs.registry }}/ljh-front-shop-main:${{ env.IMAGE_TAG }}|g" ljh-front-shop-main-deployment.yaml
 
-        cd ../overlays/dev
+        cd ../../overlays/dev
         sed -i "s|654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-front-shop-main:[^ ]*|${{ steps.login-ecr.outputs.registry }}/ljh-front-shop-main:${{ env.IMAGE_TAG }}|g" deployment-patch.yaml
 
         cd ../../overlays/prod
