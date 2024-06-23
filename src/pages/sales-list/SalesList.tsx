@@ -27,15 +27,15 @@ const SalesList: React.FC = () => {
   const getLocalSalesList = () => {
     // 로컬 상품 목록을 배열에 직접 작성
     const salesData: Sales[] = [
-      { production: '셔츠', image: 'images/webp/image1.yaml', price: 10000 },
-      { production: '바지', image: 'images/webp/image2.yaml', price: 50000 },
-      { production: '회색 티셔츠', image: 'images/webp/image3.yaml', price: 30000 },
-      { production: '카키 바지', image: 'images/webp/image4.yaml', price: 40000 },
-      { production: '검정 치마', image: 'images/webp/image5.yaml', price: 35000 },
-      { production: '연청 니트', image: 'images/webp/image6.yaml', price: 53000 },
-      { production: '검정 티셔츠', image: 'images/webp/image7.yaml', price: 21000 },
-      { production: '진청 니트', image: 'images/webp/image8.yaml', price: 65000 },
-      { production: '민소매', image: 'images/webp/image9.yaml', price: 33000 },
+      { production: '셔츠', image: 'images/webp/image1.webp', price: 10000 },
+      { production: '바지', image: 'images/webp/image2.webp', price: 50000 },
+      { production: '회색 티셔츠', image: 'images/webp/image3.webp', price: 30000 },
+      { production: '카키 바지', image: 'images/webp/image4.webp', price: 40000 },
+      { production: '검정 치마', image: 'images/webp/image5.webp', price: 35000 },
+      { production: '연청 니트', image: 'images/webp/image6.webp', price: 53000 },
+      { production: '검정 티셔츠', image: 'images/webp/image7.webp', price: 21000 },
+      { production: '진청 니트', image: 'images/webp/image8.webp', price: 65000 },
+      { production: '민소매', image: 'images/webp/image9.webp', price: 33000 },
       // 백앤드 서비스 추가하여 동적으로 해당 리스트 받아올 수 있음
     ];
     // 상품 목록을 상태에 저장
